@@ -2,7 +2,7 @@
   "name": "ethio2017",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bereket-desta.github.io/React-newYear_project",
+  "homepage": "https://bereket-desta.github.io/React-newYear_project",
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
