@@ -21,7 +21,7 @@ const Countdown = () => {
     const [isFlipped, setIsFlipped] = useState(false);
 
     useEffect(() => {
-        const countdownDate = new Date("September 18, 2024 00:00:00").getTime();
+        const countdownDate = new Date("September 11, 2024 00:00:00").getTime();
 
         const interval = setInterval(() => {
             const now = new Date().getTime();
