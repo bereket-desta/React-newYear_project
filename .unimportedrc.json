@@ -1,0 +1,13 @@
+{
+  "ignoreUnresolved": [],
+  "ignoreUnused": [
+    "@testing-library/jest-dom",
+    "@testing-library/react",
+    "@testing-library/user-event",
+    "canvas-fireworks",
+    "react-scripts"
+  ],
+  "ignoreUnimported": [
+    "/Users/Apple/Desktop/webDev/React_js/ethio2017/src/setupTests.js"
+  ]
+}
