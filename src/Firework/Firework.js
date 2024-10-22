@@ -44,22 +44,22 @@ const FireworksCanvas = () => {
             this.distanceToTarget = calculateDistance(sx, sy, tx, ty);
             this.distanceTraveled = 0;
             this.coordinates = [];
-            this.coordinateCount = 3;
+            this.coordinateCount = 5;
             while (this.coordinateCount--) {
                 this.coordinates.push([this.x, this.y]);
             }
             this.angle = Math.atan2(ty - sy, tx - sx);
-            this.speed = 2;
-            this.acceleration = 1.05;
-            this.brightness = random(50, 70);
-            this.targetRadius = 1;
+            this.speed = 3;
+            this.acceleration = 1.5;
+            this.brightness = random(20, 70);
+            this.targetRadius = 5;
         }
 
         Firework.prototype.update = function (index) {
             this.coordinates.pop();
             this.coordinates.unshift([this.x, this.y]);
-            if (this.targetRadius < 8) {
-                this.targetRadius += 0.3;
+            if (this.targetRadius < 20) {
+                this.targetRadius += 0.5;
             } else {
                 this.targetRadius = 1;
             }
